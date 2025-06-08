@@ -1,13 +1,13 @@
 export default function Home() {
   return (
     <main className="min-h-screen p-8 bg-gray-50">
-      <h1 className="text-4xl font-bold mb-6">Understanding Neural Networks: A Beginner's Guide</h1>
+      <h1 className="text-4xl font-bold mb-6">Understanding Neural Networks: A Beginner&apos;s Guide</h1>
       
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">What is a Neural Network?</h2>
         <p className="mb-4 text-lg leading-relaxed">
           Think of a neural network like a digital brain. Just as our brain learns from examples, 
-          a neural network is a computer program that can learn from data. It's made up of simple 
+          a neural network is a computer program that can learn from data. It&apos;s made up of simple 
           parts working together, similar to how brain cells (neurons) work together in our heads.
         </p>
       </section>
@@ -117,8 +117,8 @@ export default function Home() {
               This is like setting up a factory. We decide:
             </p>
             <ul className="list-disc ml-5 mt-2 space-y-1">
-              <li>How many inputs we'll accept (inputSize)</li>
-              <li>How many "middle" workers we need (hiddenSize)</li>
+              <li>How many inputs we&apos;ll accept (inputSize)</li>
+              <li>How many &quot;middle&quot; workers we need (hiddenSize)</li>
               <li>How many final outputs we want (outputSize)</li>
             </ul>
           </div>
@@ -137,14 +137,14 @@ this.weightsIH = Array(hiddenSize).fill().map(() =>
             </p>
             <ul className="list-disc ml-5 mt-2 space-y-1">
               <li>Each connection gets a random starting strength (between -0.5 and 0.5)</li>
-              <li>weightsIH means "weights from Input to Hidden layer"</li>
+              <li>weightsIH means &quot;weights from Input to Hidden layer&quot;</li>
               <li>Think of it as drawing lines between workers, each with a different strength</li>
             </ul>
           </div>
 
           {/* Step 3: Activation Function */}
           <div className="bg-white rounded-lg p-6 shadow">
-            <h3 className="text-xl font-medium mb-4">Step 3: The Brain's "Switch" (Activation Function)</h3>
+            <h3 className="text-xl font-medium mb-4">Step 3: The Brain&apos;s &quot;Switch&quot; (Activation Function)</h3>
             <pre className="bg-gray-800 text-white p-4 rounded-lg overflow-x-auto mb-4">
               <code>{`// Sigmoid activation function
 sigmoid(x) {
@@ -157,7 +157,7 @@ sigmoid(x) {
             <ul className="list-disc ml-5 mt-2 space-y-1">
               <li>Takes any number and turns it into a value between 0 and 1</li>
               <li>Helps the network make decisions</li>
-              <li>Works like a "confidence score" - how sure is the neuron about its output?</li>
+              <li>Works like a &quot;confidence score&quot; - how sure is the neuron about its output?</li>
             </ul>
           </div>
 
@@ -206,13 +206,13 @@ const nn = new NeuralNetwork(2, 4, 1);
 // 1,1 → 0`}</code>
           </pre>
           <p className="mt-4 text-gray-700">
-            This is like teaching the network to understand a simple pattern - when inputs are different, output 1; when they're the same, output 0.
+            This is like teaching the network to understand a simple pattern - when inputs are different, output 1; when they&apos;re the same, output 0.
           </p>
         </div>
       </section>
 
       <section className="mt-8 p-6 bg-green-50 rounded-lg">
-        <h2 className="text-2xl font-semibold mb-4">What's Next?</h2>
+        <h2 className="text-2xl font-semibold mb-4">What&apos;s Next?</h2>
         <p className="text-gray-700 mb-2">Now that you understand the basics:</p>
         <ul className="list-disc ml-5 mt-2 space-y-2">
           <li>Try changing the numbers in the constructor to make different sized networks</li>
